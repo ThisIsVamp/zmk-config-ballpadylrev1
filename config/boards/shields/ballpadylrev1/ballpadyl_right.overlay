@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2024 The ZMK Contributors
+ * Copyright (c) 2024 The ZMK Contributors 
+ * Copyright (c) 2020 Pete Johanson
  *
  * SPDX-License-Identifier: MIT
  */
@@ -8,8 +9,7 @@
 #include <physical_layouts.dtsi>
 #include "ballpadyl.dtsi"
 
-&default_transform {
-    col-offset = <6>;
+
 };
 
 &kscan0 {
