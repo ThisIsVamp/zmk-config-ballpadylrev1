@@ -1,0 +1,11 @@
+file_format: "1"
+id: "ballpadyl"
+name: "ballpadyl"
+type: shield
+url: https://github.com/grassfedreeve/zmk-keyboards-ballpadyl
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - ballpadyl_left
+  - ballpadyl_right

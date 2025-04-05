@@ -1,9 +1,11 @@
 /*
- * Copyright (c) 2020 Pete Johanson
+ * Copyright (c) 2024 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
-
+ 
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 #include "ballpadyl.dtsi"
 
 &kscan0 {
@@ -15,8 +17,4 @@
         , <&pro_micro 8 GPIO_ACTIVE_HIGH>
         , <&pro_micro 6 GPIO_ACTIVE_HIGH>
         ;
-};
-
-&left_encoder {
-    status = "okay";
 };
