@@ -9,9 +9,6 @@
 #include <physical_layouts.dtsi>
 #include "ballpadyl.dtsi"
 
-
-};
-
 &kscan0 {
     col-gpios
         = <&pro_micro 6 GPIO_ACTIVE_HIGH>
