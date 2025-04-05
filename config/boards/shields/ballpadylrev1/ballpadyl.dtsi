@@ -30,11 +30,11 @@
         >;
     };
 
-    kscan_0: kscan {
+    kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        wakeup-source;z
+        wakeup-source;
 
-        {diode-direction = "col2row";
+        diode-direction = "col2row";
         row-gpios
             = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -42,9 +42,5 @@
             , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            ;
-    };
-
-
-    };
+    }; 
 };

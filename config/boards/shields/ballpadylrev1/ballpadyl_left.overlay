@@ -9,7 +9,7 @@
 #include <physical_layouts.dtsi>
 #include "ballpadyl.dtsi"
 
-&kscan_faceup {
+&kscan0 {
     col-gpios
         = <&pro_micro 24 GPIO_ACTIVE_HIGH>
         , <&pro_micro 22 GPIO_ACTIVE_HIGH>
