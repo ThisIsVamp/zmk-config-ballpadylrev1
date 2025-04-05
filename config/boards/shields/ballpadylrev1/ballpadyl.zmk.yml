@@ -2,7 +2,7 @@ file_format: "1"
 id: "ballpadyl"
 name: "ballpadyl"
 type: shield
-url: https://github.com/grassfedreeve/zmk-keyboards-ballpadyl
+url: https://github.com/ThisIsVamp/zmk-config-ballpadylrev1
 requires: [nice_nano_v2]
 features:
   - keys
